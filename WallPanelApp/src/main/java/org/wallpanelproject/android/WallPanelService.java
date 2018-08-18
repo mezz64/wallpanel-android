@@ -68,13 +68,10 @@ public class WallPanelService extends Service {
     private WifiManager.WifiLock wifiLock;
     private KeyguardManager.KeyguardLock keyguardLock;
 
-<<<<<<< HEAD
     private Handler brightTimer = new Handler();
     private boolean timerActive = false;
-=======
     private MediaPlayer audioPlayer;
     private boolean audioPlayerBusy;
->>>>>>> 6dc4081... Basic audio playback support
 
     private MqttAndroidClient mqttAndroidClient;
     private String topicPrefix;
